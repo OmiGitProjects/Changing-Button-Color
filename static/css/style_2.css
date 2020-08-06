@@ -1,0 +1,19 @@
+.container, .container-1{
+        width: 75%;
+        margin: 0 auto;
+        border: 1px solid #000;
+        text-align: center;
+        margin-top: 4%;
+}
+
+.container-1{
+        border: none;
+}
+
+.flex-box-change-button-color {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+}

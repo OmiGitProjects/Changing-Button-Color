@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/css/style_2.css">
+        <title>Change Button Colors</title>
+</head>
+<body>
+        <div class="container-1">
+                <h1 class="text-danger">JavaScript Language:</h1>
+        </div>
+        <div class="container">
+                <h2 class="pt-2 text-info font-italic">Change the Button Colors</h2><hr />
+                <div class="flex-box-change-button-color mb-2">
+                        <select name="changeColor" id="changeButtonColor" onchange="changeButtonColors(this)">
+                                <option value="random">Random</option>
+                                <option value="red">Red</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                                <option value="reset">Reset</option>
+                        </select>
+
+                        <button class="btn btn-danger">Aakash!</button>
+                        <button class="btn btn-success">Adil!</button>
+                        <button class="btn btn-primary">Arfatur!</button>
+                        <button class="btn btn-warning">Atharva!</button>
+                </div>
+        </div>
+
+        <script src="static/js/main_2.js"></script>
+</body>
+</html>

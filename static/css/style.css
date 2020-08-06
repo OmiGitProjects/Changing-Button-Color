@@ -1,0 +1,15 @@
+.container{
+        width: 75%;
+        margin: 0 auto;
+        border: 1px solid #000;
+        text-align: center;
+        margin-top: 5%;
+}
+
+.flex-box-pick-colors{
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+}
